@@ -6,7 +6,7 @@ Politely is an app that helps people improve their language manners when giving 
 
 ## Demo
 
-<a href="https://vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live%20Preview-Click%20Here-green?style=for-the-badge&logo=appveyor" alt="Live Preview"></a>
+<a href="https://politely-please-thank-you-sorry.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live%20Preview-Click%20Here-green?style=for-the-badge&logo=appveyor" alt="Live Preview"></a>
 
 ## Preview
 
