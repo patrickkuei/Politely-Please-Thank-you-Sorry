@@ -1,0 +1,76 @@
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+
+  .input-container {
+    margin-bottom: 1rem;
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    textarea {
+      display: block;
+      width: 500px;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+      font-size: 1rem;
+      resize: vertical;
+      min-height: 6rem;
+    }
+
+    button[type="submit"] {
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #0070f3;
+      color: white;
+      border: none;
+      border-radius: 0.25rem;
+      font-size: 1rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0060c0;
+      }
+    }
+  }
+
+  .output-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    div {
+      margin-bottom: 0.5rem;
+      width: 500px;
+      border: 1px solid;
+      padding: 8px 18px;
+      border-radius: 4px;
+      background: darkslategrey;
+    }
+
+    button {
+      margin-bottom: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #0070f3;
+      color: white;
+      border: none;
+      border-radius: 0.25rem;
+      font-size: 1rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0060c0;
+      }
+    }
+
+    .feedback {
+      font-style: italic;
+      color: green;
+    }
+  }
+}
